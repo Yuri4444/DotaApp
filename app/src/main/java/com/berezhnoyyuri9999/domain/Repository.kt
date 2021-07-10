@@ -1,10 +1,11 @@
 package com.berezhnoyyuri9999.domain
 
-import androidx.lifecycle.MutableLiveData
 import com.berezhnoyyuri9999.data.Api
-import com.berezhnoyyuri9999.data.HeroesList
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class Repository(private val api: Api) {
+@Singleton
+class Repository @Inject constructor(private val api: Api) {
 
     suspend fun getHeroes() = api.getHeroes()
 

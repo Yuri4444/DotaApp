@@ -2,6 +2,7 @@ package com.berezhnoyyuri9999.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.berezhnoyyuri9999.AppApplication
 import com.berezhnoyyuri9999.dotaapp.R
 import com.berezhnoyyuri9999.ui.main.MainFragment
 
