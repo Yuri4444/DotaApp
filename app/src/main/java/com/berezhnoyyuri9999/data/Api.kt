@@ -4,8 +4,8 @@ import retrofit2.http.GET
 
 
 interface Api {
-
-    @GET("heroes")
-    fun getHeroes() : List<HeroesList>
+//    https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/antimage_full.png
+    @GET("heroStats")
+    suspend fun getHeroes() : List<HeroesList>
 
 }
