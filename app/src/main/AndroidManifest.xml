@@ -7,9 +7,9 @@
     <application
         android:name=".AppApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo_dota"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_dota"
         android:supportsRtl="true"
         android:theme="@style/Theme.DotaApp">
         <activity android:name="com.berezhnoyyuri9999.ui.MainActivity">
