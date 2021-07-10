@@ -1,4 +1,4 @@
-package com.berezhnoyyuri9999.data.network
+package com.berezhnoyyuri9999.di
 
 import com.berezhnoyyuri9999.data.Api
 import com.berezhnoyyuri9999.dotaapp.BuildConfig
